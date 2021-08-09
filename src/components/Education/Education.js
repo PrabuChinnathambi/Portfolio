@@ -105,11 +105,11 @@ function Education() {
                     </div>
                 </div>
             </div>
-            <Fade bottom>
-                <div className="footer">
-                    <p>Made with ❤️ by Prabu...</p>
-                </div>
-            </Fade>
+
+            <div className="footer">
+                <p>Made with ❤️ by Prabu...</p>
+            </div>
+
         </div>
     )
 }

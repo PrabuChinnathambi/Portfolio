@@ -41,6 +41,7 @@
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
+    width: 400px;
 }
 .exp_content .exp_card_container .exp_card .exp_details{
     margin-left: 60px;
@@ -75,5 +76,10 @@
     font-weight: 600;
     margin-left: 50px;
     margin-top: -35px;
-    
+}
+.exp_page .footer{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(127, 141, 170); 
+    padding-bottom: 20px;
 }
