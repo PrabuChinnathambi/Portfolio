@@ -1,0 +1,50 @@
+.navbar_page nav{
+    padding: 10px 60px;
+    color: rgb(0, 28, 85);
+}
+.navbar_page{
+    background-color: #d9e9f1;
+}
+.navbar_page ul li{
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar_page ul li .nav-link:hover{
+    border-radius: 4px;
+    background-color: #E0FFFF;
+}
+
+.navbar_page ul li .nav-link{
+    color: rgb(0, 28, 85);
+    background-color: transparent;
+}
+
+.navbar-brand{
+    font-family:Brush Script MT; 
+    margin-left: 40px;
+    color: #203647;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar_page ul li{
+        margin-left: 10px;
+    }
+    .navbar_page nav{
+        padding: 10px 20px !important;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar_page ul li{
+        width: 120px;
+    }
+    .navbar_page ul li .nav-link{
+        padding-left: 10px;
+    }
+    
+  }
