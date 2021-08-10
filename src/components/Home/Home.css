@@ -21,12 +21,15 @@
     height: 50px;
     display: inline-block;
     margin-right: 15px;
+    position: relative;
 }
 .home_container .front_content .front_contect_left .media_icons div:hover{
     background-color: black;
 }
 .home_container .front_content .front_contect_left .media_icons div a {
-    margin-left: -20px;
+    position:absolute;
+    top:0px;
+    right: 10px;
 }
 .home_container .front_content .front_contect_left .media_icons .ic_github{
     background-color: #333;
@@ -137,13 +140,16 @@
         margin-left: 50px; 
     }
     .home_container .front_content .front_contect_left .media_icons div{
-        width: 40px;
-        height: 40px;
+        width: 45px !important;
+        height: 45px !important;
+        position: relative;
     }
-    .home_container .front_content .front_contect_left .media_icons div a {
-        margin-left: -30px;
-        margin-bottom: -30px;
+    .home_container .front_content .front_contect_left .media_icons div a{
+        position:absolute;
+        top:4px;
+        right: 8px;
     }
+   
     .home_container .front_content{
         display: block;
     }

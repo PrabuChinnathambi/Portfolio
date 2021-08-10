@@ -22,7 +22,7 @@ function Home() {
                     <div className="front_content">
                         <div className="front_contect_left">
                             <h1>Prabu Chinnathambi</h1>
-                            <h2>(@prabu_sharma)</h2>
+                            <h2>(@prabudev00)</h2>
                             <p>A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.</p>
                             <div className="media_icons">
                                 <div className="ic_github"><a href="https://github.com/PrabuChinnathambi"><img src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="no" /></a></div>
