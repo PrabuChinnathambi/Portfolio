@@ -84,7 +84,75 @@
 
 
 @media only screen and (max-width: 600px) {
+    .project_page .project_container{
+        margin: 0px 0px !important;
+        padding-bottom: 50px;
+    }
+    .project_page .project_container .project_greeting{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .project_page .project_container .project_greeting img{
+        width: 350px;
+    }
+    .project_page .project_container .project_greeting .greeting_details{
+        text-align: center;
+    }
+    .project_page .project_container .project_greeting .greeting_details h1{
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .project_page .project_container .project_greeting .greeting_details h4{
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0px 20px;
+        line-height: 30px;
+    }
     .project_container .project_content{
         display: block;
+        margin-top: 70px;
+    }
+    .project_container .project_content a{
+        text-decoration: none;
+    }
+    
+    .project_container .project_content .project_card{
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 350px;
+        margin-right: 0px;
+    }
+    
+    .project_container .project_content .project_card .card_head{
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .project_container .project_content .project_card .card_head img{
+        width: 20px;
+        margin-right: 10px;
+    }
+    .project_container .project_content .project_card .card_body{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .project_container .project_content .project_card .card_body .craeted_at{
+        color: rgb(127, 141, 170); 
+    }
+    
+    .project_container .project_content .project_card .card_body ul{
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top:90px;
+        right:10px;
+    }
+    .project_container .project_content .project_card .card_body ul li img{
+        width: 30px;
     }
   }

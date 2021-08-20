@@ -60,7 +60,7 @@ function Home() {
                                     <div className="skill_points">
                                         <p>⚡ Building resposive website front end using React app</p>
                                         <p>⚡ Creating application backend in Node, Express & MongoDB</p>
-                                        <p>⚡ Building Full stack web app using MERT stack technology</p>
+                                        <p>⚡ Building Full stack web app using MERN stack technology</p>
                                     </div>
                                 </div>
                             </Fade>

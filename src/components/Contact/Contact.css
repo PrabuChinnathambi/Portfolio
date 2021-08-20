@@ -24,8 +24,6 @@
     left: 0px;
 }
 
-
-
 .contact_container .contact_content .contact_me .media_icons div{
     border-radius: 50%;
     width: 50px;
@@ -106,4 +104,75 @@
     font-weight: 700;
     color: rgb(127, 141, 170); 
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact_page .contact_container{
+        margin: 0px 0px !important;
+        padding-bottom: 30px;
+    }
+    .contact_container .contact_greeting{
+        margin-top: 20px;
+    }
+    .contact_container .contact_greeting img{
+        width: 350px;   
+        margin-left: 10px;
+    }
+    .contact_container .contact_greeting .quote{
+        width: 60px;
+        line-height: 28px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 0px;
+        left:10px;
+    }
+    .contact_container .contact_content .contact_me{
+        display: block;
+        margin: 10px;
+        margin-top: 30px;
+    }
+   
+    .contact_container .contact_content .contact_me p{
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 30px;
+        color: rgb(127, 141, 170); 
+        margin-bottom: 20px;
+    }
+    .contact_container .contact_content .contact_me img{
+        width: 350px;
+    }
+    .contact_container .contact_content .contact_me .media_icons div{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    .contact_container .contact_content .contact_me .media_icons div a {
+        position:absolute;
+        top:5px;
+        right: 5px;
+    }
+    .contact_container .contact_content .address{
+        display: block;
+        margin: 10px;
+        margin-top: 70px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .contact_container .contact_content .address img{
+        width: 350px;
+        margin-right: 20px;
+    }
+    .contact_container .contact_content .address h2{
+        font-weight: 700;
+    }
+    .contact_container .contact_content .address p{
+        color: rgb(127, 141, 170); 
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    
+    
 }

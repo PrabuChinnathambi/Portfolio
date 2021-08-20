@@ -26,8 +26,7 @@
 }
 
 .education_container .degrees{
-    margin-top: 100px;
-    
+    margin-top: 100px; 
 }
 
 .education_container .degrees h2{
@@ -114,4 +113,95 @@
     font-weight: 700;
     color: rgb(127, 141, 170); 
     padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .education_container{
+        margin: 0px 0px !important;
+        padding-bottom: 30px;
+    }
+    .education_container .greeting_education{
+        display: block;
+        margin: 30px;
+    }
+    .education_container .greeting_education img{
+        width: 350px;
+    }
+    .education_container .greeting_education .edu_quotes{
+        margin-top: 30px;
+    }
+    .education_container .greeting_education .edu_quotes h1{
+        font-weight: 500;
+    }
+    .education_container .greeting_education .edu_quotes h4{
+        line-height: 35px;
+    
+    }
+    .education_container .degrees{
+        margin-top: 50px; 
+    }
+    .education_container .degrees h2{
+        font-weight: 600;
+    }
+    .education_container .degrees .college{
+        margin-top: 60px;
+        display: block;
+        
+    }
+    .education_container .degrees .college .bharathiyar_logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+    }
+    .education_container .degrees .college .bharathiyar_logo img{
+        width: 120px;
+        height: 120px;
+        margin-top: 16px;
+    }
+    .education_container .degrees .college .degree_details{
+        width:350px;
+        margin-left: 10px;
+        padding-bottom: 40px;
+    }
+    .education_container .degrees .college .degree_details .degree_head{
+      
+        padding: 10px;
+        position: relative;
+    }
+    .education_container .degrees .college .degree_details .degree_head h3{
+        width: 250px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .education_container .degrees .college .degree_details .degree_head h4{
+        font-weight: 700;
+        font-size: 17px;
+    }
+    
+    .education_container .degrees .college .degree_details .degree_head .year{
+        text-align: right;
+        position: absolute;
+        font-weight: 600;
+        font-size: 17px;
+        top: 15px;
+        right: 10px;
+    }
+    
+    .education_container .degrees .college .degree_details .degree_points{
+        padding: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+    .education_container .degrees .college .degree_details .gpa{
+        padding-top: 10px;
+        width: 100px;
+    
+    }
+    .education_container .degrees .college .degree_details .gpa p{
+        font-weight: 700;
+        font-size: 15px
+
+    }
 }

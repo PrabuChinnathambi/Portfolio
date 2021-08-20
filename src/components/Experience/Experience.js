@@ -48,7 +48,7 @@ function Experience() {
                                         <span>
                                             <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/285/backhand-index-pointing-right_1f449.png" alt="emoji" />
                                             <Fade right>
-                                                <p>I'm currently working in Unilever project in Infosys. The roll should I have to manage 10 more applications already in live. Maintaining and supporting the ticket issues. Resolve the issue within a time and delever to the client.</p>
+                                                <p>I'm currently working in Unilever project in Infosys. The roll should I have to manage 10 more applications already in live. Maintaining and supporting the ticket issues. Resolve the issue within a time and deliver to the client.</p>
                                             </Fade>
                                         </span>
                                         <h3>Wakmart Project:</h3>
@@ -62,7 +62,7 @@ function Experience() {
                                         <span>
                                             <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/285/backhand-index-pointing-right_1f449.png" alt="emoji" />
                                             <Fade right>
-                                                <p>I got more skills in my training. Especialy, I have trained one month for Pyhton basics and RDBMS. Later I got full knowlodge about web development through C#, Asp.Net, DBMS</p>
+                                                <p>I got more skills in my training. Especially, I have trained one month for Python basics and RDBMS. Later I got full knowledge about web development through C#, Asp.Net, DBMS</p>
                                             </Fade>
                                         </span>
                                     </div>
