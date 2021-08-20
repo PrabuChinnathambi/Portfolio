@@ -86,6 +86,9 @@
 
 
 @media only screen and (max-width: 600px) {
+    .exp_page{
+        width: 400px;
+    }
     .exp_page .exp_container{
         margin: 0px 0px !important;
         padding-bottom: 30px;
@@ -108,7 +111,7 @@
     }
     .exp_page .exp_container .exp_greeting .exp_greeting_quotes h4{
         line-height: 35px;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .exp_container .exp_content{
@@ -174,7 +177,7 @@
     }
     .exp_content .exp_card_container .exp_card .exp_details .detail_body p{
         color: rgb(127, 141, 170); 
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 600;
         margin-left: 25px;
         margin-top: -20px;

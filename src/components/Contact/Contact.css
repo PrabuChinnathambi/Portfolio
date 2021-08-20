@@ -107,9 +107,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .contact_page{
+        width: 400px;
+    }
     .contact_page .contact_container{
         margin: 0px 0px !important;
         padding-bottom: 30px;
+        text-align: center;
     }
     .contact_container .contact_greeting{
         margin-top: 20px;
@@ -124,7 +128,8 @@
         font-weight: 600;
         font-size: 30px;
         top: 0px;
-        left:10px;
+        left:30px;
+        text-align: left;
     }
     .contact_container .contact_content .contact_me{
         display: block;
@@ -137,10 +142,11 @@
         font-size: 17px;
         line-height: 30px;
         color: rgb(127, 141, 170); 
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .contact_container .contact_content .contact_me img{
-        width: 350px;
+        width: 320px;
+        
     }
     .contact_container .contact_content .contact_me .media_icons div{
         width: 40px;
@@ -163,6 +169,7 @@
     .contact_container .contact_content .address img{
         width: 350px;
         margin-right: 20px;
+        margin-bottom: 30px;
     }
     .contact_container .contact_content .address h2{
         font-weight: 700;

@@ -117,6 +117,9 @@
 
 
 @media only screen and (max-width: 600px) {
+    .education_page{
+        width: 400px;
+    }
     .education_container{
         margin: 0px 0px !important;
         padding-bottom: 30px;
@@ -140,6 +143,7 @@
     }
     .education_container .degrees{
         margin-top: 50px; 
+        margin-left: 15px;
     }
     .education_container .degrees h2{
         font-weight: 600;
