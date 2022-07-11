@@ -1,216 +1,268 @@
-.home_page{
-    background-color: #d9e9f1;
-    color: rgb(0, 28, 85);
+.home_page {
+  background-color: #d9e9f1;
+  color: rgb(0, 28, 85);
 }
-.home_container{ 
-    margin: 40px 90px;
-    padding-bottom: 50px;
+.home_container {
+  padding: 60px 0px;
+  margin: 0px 180px;
 }
-.home_container .front_content{
-    display: flex;
+.home_container .front_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.home_container .front_content .front_contect_left{
-    line-height: 40px;
-    padding-top: 100px;
-    width: 500px;
+.home_container .front_content .front_contect_left {
+  line-height: 40px;
+  padding-top: 100px;
+  width: 500px;
 }
 
-.home_container .front_content .front_contect_left .media_icons div{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    margin-right: 15px;
-    position: relative;
+.home_container .front_content .front_contect_left .media_icons div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
 }
-.home_container .front_content .front_contect_left .media_icons div:hover{
-    background-color: black;
+.home_container .front_content .front_contect_left .media_icons div:hover {
+  background-color: black;
 }
 .home_container .front_content .front_contect_left .media_icons div a {
-    position:absolute;
-    top:0px;
-    right: 10px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
 }
-.home_container .front_content .front_contect_left .media_icons .ic_github{
-    background-color: #333;
-}
-
-.home_container .front_content .front_contect_left .media_icons .ic_linkedin{
-    background-color: #0e76a8;
-}
-.home_container .front_content .front_contect_left .media_icons .ic_twitter{
-    background-color: #1da1f2;
-}
-.home_container .front_content .front_contect_left .media_icons .ic_facebook{
-    background-color: #3b5998;
-}
-.home_container .front_content .front_contect_left .media_icons .ic_instagram{
-    background-color: #e4405f;
-}
-.home_container .front_content .front_contect_left .media_icons img{
-    width: 30px;
+.home_container .front_content .front_contect_left .media_icons .ic_github {
+  background-color: #333;
 }
 
-.home_container .front_content .front_contect_left h1{
-    font-weight: 700;
+.home_container .front_content .front_contect_left .media_icons .ic_linkedin {
+  background-color: #0e76a8;
 }
-.home_container .front_content .front_contect_left h2{
-    font-weight: 600;
+.home_container .front_content .front_contect_left .media_icons .ic_twitter {
+  background-color: #1da1f2;
 }
-.home_container .front_content .front_contect_left p{
-    color: rgb(127, 141, 170); 
-    font-weight: 500;
-    font-size: 18px;  
+.home_container .front_content .front_contect_left .media_icons .ic_facebook {
+  background-color: #3b5998;
 }
-.home_container .front_content .front_contect_right{
-    padding: 10px;
+.home_container .front_content .front_contect_left .media_icons .ic_instagram {
+  background-color: #e4405f;
 }
-.home_container .front_content img{
-    margin-left: 30px;
-    width: 500px;
+.home_container .front_content .front_contect_left .media_icons img {
+  width: 30px;
 }
 
-.home_container .what_do{
-    margin-top: 140px;
+.home_container .front_content .front_contect_left h1 {
+  font-weight: 700;
 }
-.home_container .what_do h1{
-    text-align: center;
+.home_container .front_content .front_contect_left h2 {
+  font-weight: 600;
 }
-
-.home_container .what_do .what_do_content{
-    margin-top: 80px;
+.home_container .front_content .front_contect_left p {
+  color: rgb(127, 141, 170);
+  font-weight: 500;
+  font-size: 18px;
 }
-.home_container .what_do .content_left img{
-    margin-top: 50px;
-    width: 600px;
+.home_container .front_content .front_contect_right {
+  padding: 10px;
 }
-.home_container .what_do .what_do_content .full_stack{
-    display: flex;
-    margin-top: 30px;
-}
-.home_container .what_do .what_do_content .full_stack .content_right{
-    margin-left: 20px;
-    margin-top: 50px;
-}
-.home_container .what_do .what_do_content .full_stack .content_right .skill_logos{
-    margin-top: 10px;
-}
-.home_container .what_do .what_do_content .full_stack .content_right .skill_logos img{
-    width: 70px;
-}
-.home_container .what_do .what_do_content .full_stack .content_right .skill_points{
-    margin-top: 30px;
+.home_container .front_content img {
+  margin-left: 30px;
+  width: 500px;
 }
 
-.home_container .what_do .what_do_content .full_stack .content_right .skill_points p{
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(127, 141, 170); 
+.home_container .what_do {
+  margin-top: 140px;
 }
-.home_page .footer{
-    text-align: center;
-    font-weight: 700;
-    color: rgb(127, 141, 170); 
-    padding-bottom: 20px;
+.home_container .what_do h1 {
+  text-align: center;
 }
 
+.home_container .what_do .what_do_content {
+  margin-top: 80px;
+}
+.home_container .what_do .content_left img {
+  margin-top: 50px;
+  width: 600px;
+}
+.home_container .what_do .what_do_content .full_stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.home_container .what_do .what_do_content .full_stack .content_right {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.home_container
+  .what_do
+  .what_do_content
+  .full_stack
+  .content_right
+  .skill_logos {
+  margin-top: 10px;
+}
+.home_container
+  .what_do
+  .what_do_content
+  .full_stack
+  .content_right
+  .skill_logos
+  img {
+  width: 70px;
+}
+.home_container
+  .what_do
+  .what_do_content
+  .full_stack
+  .content_right
+  .skill_points {
+  margin-top: 30px;
+}
+
+.home_container
+  .what_do
+  .what_do_content
+  .full_stack
+  .content_right
+  .skill_points
+  p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(127, 141, 170);
+}
+.home_page .footer {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(127, 141, 170);
+  padding-bottom: 20px;
+}
 
 @media only screen and (max-width: 600px) {
-    .home_page{
-        width: 400px;
-    }
-    .home_container{ 
-        margin: 0px 0px !important;
-    }
-    .home_container .front_content .front_contect_left{
-        padding-top: 50px;
-        width: 400px;
-        line-height: 30px;
-        text-align: center;
-    }
-    .home_container .front_content .front_contect_left h1{
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .home_container .front_content .front_contect_left h2{
-        font-weight: 500;
-        font-size: 20px;
-    }
-    .home_container .front_content .front_contect_left p{
-        font-weight: 500;
-        font-size: 15px;  
-        width: 300px;
-        margin-left: 50px; 
-    }
-    .home_container .front_content .front_contect_left .media_icons div{
-        width: 45px !important;
-        height: 45px !important;
-        position: relative;
-    }
-    .home_container .front_content .front_contect_left .media_icons div a{
-        position:absolute;
-        top:4px;
-        right: 8px;
-    }
-   
-    .home_container .front_content{
-        display: block;
-    }
-    .home_container .front_content .front_contect_right{
-        text-align: center;
-    }
-    .home_container .front_content .front_contect_right img{
-        margin-left: 0px;
-        margin-top: 30px;
-        width: 300px;
-    }
-    .home_container .what_do{
-        margin-top: 80px;
-    }
-    .home_container .what_do .what_do_content{
-        margin-top: 30px;
-    }
-    .home_container .what_do .what_do_content .full_stack{
-        display: block;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .home_container .what_do .content_left img{
-        margin-top: 40px;
-        width: 350px;
-    }
+  .home_page {
+    width: 400px;
+  }
+  .home_container {
+    margin: 0px 0px !important;
+  }
+  .home_container .front_content .front_contect_left {
+    padding-top: 50px;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .home_container .front_content .front_contect_left h1 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .home_container .front_content .front_contect_left h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .home_container .front_content .front_contect_left p {
+    font-weight: 500;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .home_container .front_content .front_contect_left .media_icons div {
+    width: 45px !important;
+    height: 45px !important;
+    position: relative;
+  }
+  .home_container .front_content .front_contect_left .media_icons div a {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+  }
 
-    .home_container .what_do .what_do_content .full_stack .content_right h1{
-        font-size: 25px;
-        font-weight: 700;
-    }
+  .home_container .front_content {
+    display: block;
+  }
+  .home_container .front_content .front_contect_right {
+    text-align: center;
+  }
+  .home_container .front_content .front_contect_right img {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 300px;
+  }
+  .home_container .what_do {
+    margin-top: 80px;
+  }
+  .home_container .what_do .what_do_content {
+    margin-top: 30px;
+  }
+  .home_container .what_do .what_do_content .full_stack {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .home_container .what_do .content_left img {
+    margin-top: 40px;
+    width: 350px;
+  }
 
-    .home_container .what_do .what_do_content .full_stack .content_right{
-        margin-left: 0px;
-        margin-top: 30px;
-    }
-    .home_container .what_do .what_do_content .full_stack .content_right .skill_logos{
-        margin-top: 10px;
-    }
-    .home_container .what_do .what_do_content .full_stack .content_right .skill_logos img{
-        width: 40px;
-    }
-    .home_container .what_do .what_do_content .full_stack .content_right .skill_points ul li{
-        list-style: none;
-    }
-    .home_container .what_do .what_do_content .full_stack .content_right .skill_points{
-        margin-top: 20px;
-        padding: 0px !important;
-        text-align: left;
-        width: 300px;
-        margin-left: 40px;
-    }
-    
-    .home_container .what_do .what_do_content .full_stack .content_right .skill_points p{
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 20px;
-    }
-    
-    
+  .home_container .what_do .what_do_content .full_stack .content_right h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .home_container .what_do .what_do_content .full_stack .content_right {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .home_container
+    .what_do
+    .what_do_content
+    .full_stack
+    .content_right
+    .skill_logos {
+    margin-top: 10px;
+  }
+  .home_container
+    .what_do
+    .what_do_content
+    .full_stack
+    .content_right
+    .skill_logos
+    img {
+    width: 40px;
+  }
+  .home_container
+    .what_do
+    .what_do_content
+    .full_stack
+    .content_right
+    .skill_points
+    ul
+    li {
+    list-style: none;
+  }
+  .home_container
+    .what_do
+    .what_do_content
+    .full_stack
+    .content_right
+    .skill_points {
+    margin-top: 20px;
+    padding: 0px !important;
+    text-align: left;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .home_container
+    .what_do
+    .what_do_content
+    .full_stack
+    .content_right
+    .skill_points
+    p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
 }

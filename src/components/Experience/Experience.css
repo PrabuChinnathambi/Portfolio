@@ -1,187 +1,180 @@
-.exp_page{
-    background-color: #d9e9f1;
-    color: rgb(0, 28, 85);
+.exp_page {
+  background-color: #d9e9f1;
+  color: rgb(0, 28, 85);
 }
 
-.exp_page .exp_container{
-    margin: 40px 90px;
-    padding-bottom: 30px;
+.exp_page .exp_container {
+  padding: 60px 0px;
+  margin: 0px 180px;
 }
-.exp_page .exp_container .exp_greeting{
-    display: flex;
+.exp_page .exp_container .exp_greeting {
+  display: flex;
 }
-.exp_page .exp_container .exp_greeting img{
-    width: 500px;
+.exp_page .exp_container .exp_greeting img {
+  width: 500px;
 }
-.exp_page .exp_container .exp_greeting .exp_greeting_quotes{
-    text-align: center;
+.exp_page .exp_container .exp_greeting .exp_greeting_quotes {
+  text-align: center;
 }
-.exp_page .exp_container .exp_greeting .exp_greeting_quotes h1{
-    margin-top: 30px;
-    font-weight: 700;
+.exp_page .exp_container .exp_greeting .exp_greeting_quotes h1 {
+  margin-top: 30px;
+  font-weight: 700;
 }
-.exp_page .exp_container .exp_greeting .exp_greeting_quotes h4{
-    line-height: 40px;
+.exp_page .exp_container .exp_greeting .exp_greeting_quotes h4 {
+  line-height: 40px;
 }
-.exp_container .exp_content{
-    margin-top: 120px;
+.exp_container .exp_content {
+  margin-top: 120px;
 }
-.exp_container .exp_content h1{
-    text-align: center;
-    font-weight: 650;
+.exp_container .exp_content h1 {
+  text-align: center;
+  font-weight: 650;
 }
-.exp_container .exp_content .exp_card_container{
-    margin-top: 50px;
+.exp_container .exp_content .exp_card_container {
+  margin-top: 50px;
 }
-.exp_content .exp_card_container .exp_card{
-    display: flex;
-    align-items: center;
+.exp_content .exp_card_container .exp_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.exp_content .exp_card_container .exp_card .company_logo img{
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    width: 400px;
+.exp_content .exp_card_container .exp_card .company_logo img {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  width: 400px;
 }
-.exp_content .exp_card_container .exp_card .exp_details{
-    margin-left: 60px;
-    border-radius: 10px;
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
+.exp_content .exp_card_container .exp_card .exp_details {
+  margin-left: 60px;
+  border-radius: 10px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
-.exp_content .exp_card_container .exp_card .exp_details .detail_head{
-    padding: 10px;
-    border-radius: 10px;
-    position: relative;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
+.exp_content .exp_card_container .exp_card .exp_details .detail_head {
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
-.exp_content .exp_card_container .exp_card .exp_details .detail_head .year{
-    position: absolute;
-    top:10px;
-    right:10px;
-    font-weight: 600;
-    
+.exp_content .exp_card_container .exp_card .exp_details .detail_head .year {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 600;
 }
-.exp_content .exp_card_container .exp_card .exp_details .detail_body{
-    padding: 20px 10px 20px 10px;
+.exp_content .exp_card_container .exp_card .exp_details .detail_body {
+  padding: 20px 10px 20px 10px;
 }
-.exp_content .exp_card_container .exp_card .exp_details .detail_body img{
-    width: 40px;
+.exp_content .exp_card_container .exp_card .exp_details .detail_body img {
+  width: 40px;
 }
-.exp_content .exp_card_container .exp_card .exp_details .detail_body p{
-    color: rgb(127, 141, 170); 
-    font-weight: 600;
-    margin-left: 50px;
-    margin-top: -35px;
+.exp_content .exp_card_container .exp_card .exp_details .detail_body p {
+  color: rgb(127, 141, 170);
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: -35px;
 }
-.exp_page .footer{
-    text-align: center;
-    font-weight: 700;
-    color: rgb(127, 141, 170); 
-    padding-bottom: 20px;
+.exp_page .footer {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(127, 141, 170);
+  padding-bottom: 20px;
 }
-
 
 @media only screen and (max-width: 600px) {
-    .exp_page{
-        width: 400px;
-    }
-    .exp_page .exp_container{
-        margin: 0px 0px !important;
-        padding-bottom: 30px;
-    }
-    .exp_page .exp_container .exp_greeting{
-        display: block;
-        text-align: center;
-        margin-top: 30px;
-    }
-    .exp_page .exp_container .exp_greeting img{
-        width: 300px;
-    }
-    .exp_page .exp_container .exp_greeting .exp_greeting_quotes{
-        text-align: center;
-    }
-    .exp_page .exp_container .exp_greeting .exp_greeting_quotes h1{
-        margin-top: 30px;
-        font-weight: 600;
-        font-size: 35px;
-    }
-    .exp_page .exp_container .exp_greeting .exp_greeting_quotes h4{
-        line-height: 35px;
-        font-size: 18px;
-    }
-    
-    .exp_container .exp_content{
-        margin-top: 60px;
-    }
-    .exp_container .exp_content h1{
-        text-align: center;
-        font-weight: 700;
-        font-size: 30px;
-    }
-    .exp_container .exp_content .exp_card_container{
-        margin-top: 50px;
-    }
-    .exp_content .exp_card_container .exp_card{
-        display: block;
-        text-align: center;
-    }
-    .exp_content .exp_card_container .exp_card .company_logo img{
-        width: 280px;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details{
-        margin-left: 0px;
-        margin: 15px;
-        margin-top: 30px;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_head{
-        padding: 10px;
-        padding-bottom: 30px;
-        border-radius: 10px;
-        position: relative;
-        background-color: #0093E9;
-        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-        text-align: left;
-    
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_head h2{
-        font-size: 25px;
-        
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_head h2{
-        font-size: 25px; 
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_head h4{
-        font-size: 20px;
+  .exp_page {
+    width: 400px;
+  }
+  .exp_page .exp_container {
+    margin: 0px 0px !important;
+    padding-bottom: 30px;
+  }
+  .exp_page .exp_container .exp_greeting {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .exp_page .exp_container .exp_greeting img {
+    width: 300px;
+  }
+  .exp_page .exp_container .exp_greeting .exp_greeting_quotes {
+    text-align: center;
+  }
+  .exp_page .exp_container .exp_greeting .exp_greeting_quotes h1 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .exp_page .exp_container .exp_greeting .exp_greeting_quotes h4 {
+    line-height: 35px;
+    font-size: 18px;
+  }
 
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_head .year{
-        position: absolute;
-        top: 80px;
-        right: 10px;
-        font-weight: 600;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_body{
-        padding: 10px 5px 10px 5px;
-        text-align: left;
-        margin-left: 10px;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_body h3{
-        font-size: 20px;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_body img{
-        width: 20px;
-    }
-    .exp_content .exp_card_container .exp_card .exp_details .detail_body p{
-        color: rgb(127, 141, 170); 
-        font-size: 15px;
-        font-weight: 600;
-        margin-left: 25px;
-        margin-top: -20px;
-    }
-    
-
+  .exp_container .exp_content {
+    margin-top: 60px;
+  }
+  .exp_container .exp_content h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .exp_container .exp_content .exp_card_container {
+    margin-top: 50px;
+  }
+  .exp_content .exp_card_container .exp_card {
+    display: block;
+    text-align: center;
+  }
+  .exp_content .exp_card_container .exp_card .company_logo img {
+    width: 280px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details {
+    margin-left: 0px;
+    margin: 15px;
+    margin-top: 30px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_head {
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    text-align: left;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_head h2 {
+    font-size: 25px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_head h2 {
+    font-size: 25px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_head h4 {
+    font-size: 20px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_head .year {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-weight: 600;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_body {
+    padding: 10px 5px 10px 5px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_body h3 {
+    font-size: 20px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_body img {
+    width: 20px;
+  }
+  .exp_content .exp_card_container .exp_card .exp_details .detail_body p {
+    color: rgb(127, 141, 170);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: -20px;
+  }
 }

@@ -1,211 +1,204 @@
-.education_page{
-    background-color: #d9e9f1;
-    color: rgb(0, 28, 85);
+.education_page {
+  background-color: #d9e9f1;
+  color: rgb(0, 28, 85);
 }
-.education_container{
-    margin: 40px 90px;
+.education_container {
+  padding: 60px 0px;
+  margin: 0px 180px;
+}
+.education_container .greeting_education {
+  margin-top: 30px;
+  display: flex;
+}
+.education_container .greeting_education .edu_quotes {
+  margin-top: 70px;
+  text-align: center;
+}
+.education_container .greeting_education .edu_quotes h1 {
+  font-weight: 700;
+}
+.education_container .greeting_education .edu_quotes h4 {
+  line-height: 40px;
+}
+.education_container .greeting_education img {
+  width: 600px;
+}
+
+.education_container .degrees {
+  margin-top: 100px;
+}
+
+.education_container .degrees h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.education_container .degrees .college {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.education_container .degrees .college .bharathiyar_logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin: 20px;
+  margin-right: 50px;
+}
+.education_container .degrees .college .bharathiyar_logo img {
+  width: 180px;
+  height: 170px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.education_container .degrees .college .degree_details {
+  border-radius: 10px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  width: 750px;
+}
+
+.education_container .degrees .college .degree_details .degree_head {
+  background-color: rgba(14, 107, 168, 0.467);
+  border-radius: 7px;
+  padding: 20px;
+  position: relative;
+}
+.education_container .degrees .college .degree_details .degree_head h3 {
+  font-weight: 700;
+}
+.education_container .degrees .college .degree_details .degree_head h4 {
+  font-weight: 600;
+}
+
+.education_container .degrees .college .degree_details .degree_head .year {
+  text-align: right;
+  position: absolute;
+  font-weight: 600;
+  font-size: 17px;
+  top: 20px;
+  right: 10px;
+}
+
+.education_container .degrees .college .degree_details .degree_points {
+  padding: 20px;
+  font-weight: 500;
+}
+.education_container .degrees .college .degree_details .gpa {
+  float: right;
+  background-color: rgba(14, 107, 168, 0.467);
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  width: 120px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+.education_container .degrees .college .degree_details .gpa p {
+  font-weight: 700;
+}
+
+.education_page .footer {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(127, 141, 170);
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .education_page {
+    width: 400px;
+  }
+  .education_container {
+    margin: 0px 0px !important;
     padding-bottom: 30px;
-}
-.education_container .greeting_education{
+  }
+  .education_container .greeting_education {
+    display: block;
+    margin: 30px;
+  }
+  .education_container .greeting_education img {
+    width: 350px;
+  }
+  .education_container .greeting_education .edu_quotes {
     margin-top: 30px;
-    display: flex;
-}
-.education_container .greeting_education .edu_quotes{
-    margin-top: 70px;
-    text-align: center;
-}
-.education_container .greeting_education .edu_quotes h1{
-    font-weight: 700;
-}
-.education_container .greeting_education .edu_quotes h4{
-    line-height: 40px;
-
-}
-.education_container .greeting_education img{
-    width: 600px;
-}
-
-.education_container .degrees{
-    margin-top: 100px; 
-}
-
-.education_container .degrees h2{
-    text-align: center;
-    font-weight: 700;
-}
-
-.education_container .degrees .college{
-    margin-top: 100px;
-    display: flex;
-}
-.education_container .degrees .college .bharathiyar_logo{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    text-align: center;
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    margin: 20px;
-    margin-right: 50px;
-}
-.education_container .degrees .college .bharathiyar_logo img{
-    width: 180px;
-    height: 170px;
-    border-radius: 50%;
-    margin-top: 40px;
-}
-
-.education_container .degrees .college .degree_details{
-    border-radius: 10px;
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    width:750px;
-}
-
-.education_container .degrees .college .degree_details .degree_head{
-    background-color: rgba(14, 107, 168, 0.467);
-    border-radius: 7px;
-    padding: 20px;
-    position: relative;
-}
-.education_container .degrees .college .degree_details .degree_head h3{
-    font-weight: 700;
-}
-.education_container .degrees .college .degree_details .degree_head h4{
+  }
+  .education_container .greeting_education .edu_quotes h1 {
+    font-weight: 500;
+  }
+  .education_container .greeting_education .edu_quotes h4 {
+    line-height: 35px;
+  }
+  .education_container .degrees {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  .education_container .degrees h2 {
     font-weight: 600;
-}
+  }
+  .education_container .degrees .college {
+    margin-top: 60px;
+    display: block;
+  }
+  .education_container .degrees .college .bharathiyar_logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+  }
+  .education_container .degrees .college .bharathiyar_logo img {
+    width: 120px;
+    height: 120px;
+    margin-top: 16px;
+  }
+  .education_container .degrees .college .degree_details {
+    width: 350px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+  }
+  .education_container .degrees .college .degree_details .degree_head {
+    padding: 10px;
+    position: relative;
+  }
+  .education_container .degrees .college .degree_details .degree_head h3 {
+    width: 250px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .education_container .degrees .college .degree_details .degree_head h4 {
+    font-weight: 700;
+    font-size: 17px;
+  }
 
-.education_container .degrees .college .degree_details .degree_head .year{
+  .education_container .degrees .college .degree_details .degree_head .year {
     text-align: right;
     position: absolute;
     font-weight: 600;
     font-size: 17px;
-    top: 20px;
+    top: 15px;
     right: 10px;
-}
+  }
 
-.education_container .degrees .college .degree_details .degree_points{
+  .education_container .degrees .college .degree_details .degree_points {
     padding: 20px;
     font-weight: 500;
-    
-}
-.education_container .degrees .college .degree_details .gpa{
-    float: right;
-    background-color: rgba(14, 107, 168, 0.467);
-    border-radius: 5px;
+    font-size: 15px;
+  }
+  .education_container .degrees .college .degree_details .gpa {
     padding-top: 10px;
-    margin-top: -30px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    width: 120px;
-    text-align: center;
-    align-items: center;
-    display: inline-block;    
-}
-.education_container .degrees .college .degree_details .gpa p{
+    width: 100px;
+  }
+  .education_container .degrees .college .degree_details .gpa p {
     font-weight: 700;
-}
-
-.education_page .footer{
-    text-align: center;
-    font-weight: 700;
-    color: rgb(127, 141, 170); 
-    padding-bottom: 20px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .education_page{
-        width: 400px;
-    }
-    .education_container{
-        margin: 0px 0px !important;
-        padding-bottom: 30px;
-    }
-    .education_container .greeting_education{
-        display: block;
-        margin: 30px;
-    }
-    .education_container .greeting_education img{
-        width: 350px;
-    }
-    .education_container .greeting_education .edu_quotes{
-        margin-top: 30px;
-    }
-    .education_container .greeting_education .edu_quotes h1{
-        font-weight: 500;
-    }
-    .education_container .greeting_education .edu_quotes h4{
-        line-height: 35px;
-    
-    }
-    .education_container .degrees{
-        margin-top: 50px; 
-        margin-left: 15px;
-    }
-    .education_container .degrees h2{
-        font-weight: 600;
-    }
-    .education_container .degrees .college{
-        margin-top: 60px;
-        display: block;
-        
-    }
-    .education_container .degrees .college .bharathiyar_logo{
-        width: 150px;
-        height: 150px;
-        margin-left: 100px;
-    }
-    .education_container .degrees .college .bharathiyar_logo img{
-        width: 120px;
-        height: 120px;
-        margin-top: 16px;
-    }
-    .education_container .degrees .college .degree_details{
-        width:350px;
-        margin-left: 10px;
-        padding-bottom: 40px;
-    }
-    .education_container .degrees .college .degree_details .degree_head{
-      
-        padding: 10px;
-        position: relative;
-    }
-    .education_container .degrees .college .degree_details .degree_head h3{
-        width: 250px;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    .education_container .degrees .college .degree_details .degree_head h4{
-        font-weight: 700;
-        font-size: 17px;
-    }
-    
-    .education_container .degrees .college .degree_details .degree_head .year{
-        text-align: right;
-        position: absolute;
-        font-weight: 600;
-        font-size: 17px;
-        top: 15px;
-        right: 10px;
-    }
-    
-    .education_container .degrees .college .degree_details .degree_points{
-        padding: 20px;
-        font-weight: 500;
-        font-size: 15px;
-        
-    }
-    .education_container .degrees .college .degree_details .gpa{
-        padding-top: 10px;
-        width: 100px;
-    
-    }
-    .education_container .degrees .college .degree_details .gpa p{
-        font-weight: 700;
-        font-size: 15px
-
-    }
+    font-size: 15px;
+  }
 }
